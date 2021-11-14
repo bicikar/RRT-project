@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bicikar/Courses/RRT_project/RRT_linux/include/field.h
+cstddef
+-
+string
+-
+tree.h
+/home/bicikar/Courses/RRT_project/RRT_linux/include/tree.h
+kdtree.h
+/home/bicikar/Courses/RRT_project/RRT_linux/include/kdtree.h
+
+/home/bicikar/Courses/RRT_project/RRT_linux/include/kdtree.h
+vector
+-
+field.h
+/home/bicikar/Courses/RRT_project/RRT_linux/include/field.h
+
+/home/bicikar/Courses/RRT_project/RRT_linux/include/tree.h
+vector
+-
+kdtree.h
+/home/bicikar/Courses/RRT_project/RRT_linux/include/kdtree.h
+
+/home/bicikar/Courses/RRT_project/RRT_linux/src/main.cpp
+iostream
+-
+../include/field.h
+/home/bicikar/Courses/RRT_project/RRT_linux/include/field.h
+
